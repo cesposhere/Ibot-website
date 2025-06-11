@@ -15,12 +15,15 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 * Global
 * ==========================================================================
 */
-
+body {
+  background-color: #222; /* dark gray */
+  color: #fff;            /* optional: makes all text white for contrast */
+}
 .btn-primary{
   margin-left: 20px;
 }
 .blog-title{
-  color: #385A30;
+  color: #e13131;
   font-family: "Lato";
   font-variant: small-caps;
 }
@@ -142,17 +145,17 @@ float: right;
 
 .white-text{
     font-style: italic;
-    color: white;
+    color: rgb(39, 39, 39);
 }
 
 body {
     font-size: 15px;
     line-height: 24px;
-    background:#F8FAFF;
+    background:#0a0a0a;
 }
 
 a {
-    color: #55CBD2;
+    color: #ea7e7e;
     text-decoration: none;
     -o-transition: all .3s;
     -moz-transition: all .3s;
@@ -160,7 +163,7 @@ a {
     -ms-transition: all .3s;
 }
 
-a:hover { color: #888; text-decoration: none; }
+a:hover { color: #df2121; text-decoration: none; }
 
 strong { font-weight: bold; }
 
@@ -193,8 +196,8 @@ address {
 .nav-pills > li.selected > a,
 .nav-pills > li.selected > a:hover,
 .nav-pills > li.selected > a:focus {
-  color: #ffffff;
-  background-color: #1bbd9b;
+  color: #000000;
+  background-color: #df2121;
 }
 /*
 * ==========================================================================
@@ -217,8 +220,8 @@ address {
 .nav-pills-centered > .nav-pills > li > span.active,
 .nav-pills-centered > .nav-pills > li > a.selected,
 .nav-pills-centered > .nav-pills > li > span.selected {
-  color: #ffffff;
-  background-color: #1bbd9b;
+  color: #000000;
+  background-color: #df2121;
 }
 /*
 * ==========================================================================
@@ -226,8 +229,8 @@ address {
 * ==========================================================================
 */
 .active{
-  background:#74B9B9 !important;
-  color: white;
+  background:#df2121 !important;
+  color: rgb(0, 0, 0);
 }
 .navbar {
   font-weight: bold;
@@ -259,9 +262,9 @@ address {
   padding-top: 0px;
 }
 .side-left{
-  background:#528C7C;
+  background:#be3c3c;
   box-shadow: 3px grey;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 30px;
   letter-spacing: .9px;
 }
@@ -274,7 +277,7 @@ address {
 
 .banner-text{
     font-family: 'Raleway', sans-serif;
-    color:white;
+    color:rgb(0, 0, 0);
     font-size: 50px;
 
     }
@@ -341,7 +344,7 @@ address {
     text-align: left;
     letter-spacing:.7px;
     font-size: 13px;
-    color: #71d7c2;
+    color: #d03737;
 }
 
 .spacing{
@@ -351,7 +354,7 @@ address {
 .sidebar-right{
     font-size: 13px;
     font-weight: bold;
-    color:#84d7bd;
+    color:#d03737;
 }
 
 .featured-img{
@@ -407,7 +410,7 @@ p.blog-text{
   }
 }
 .feedback-section .address-section .address-icon {
-  color: #1bbd9b;
+  color: #d03737;
   font-size: 48px;
   line-height: 48px;
   margin-bottom: 30px;
@@ -440,7 +443,7 @@ p.blog-text{
   margin-top: 50px;
 }
 .services-section .services-icon {
-  color: #1bbd9b;
+  color: #d03737;
   margin-bottom: 30px;
 }
 .services-section .services-title {
@@ -463,24 +466,24 @@ p.blog-text{
 }
 .services-icon .fa:hover{
     padding: 0 10px 0 10px;
-    color: white;
-    background: #1BBD9B;
+    color: rgb(0, 0, 0);
+    background: #d03737;
     border-radius: 3px; 
     transition:.4s;  
 }
 .services-group{
   padding: 10px;
-  background:#061F20;
-  color: white;
+  background:#d11313;
+  color: rgb(0, 0, 0);
 }
 .service-icon{
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 
 /* ----- Footer ----- */
 .footer-widget{
-    color:white;
+    color:rgb(0, 0, 0);
     margin-top: 55px;
     position: absolute;
 }
@@ -491,7 +494,7 @@ footer .widget h4 {
     font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
     font-size: 14px;
     text-transform: uppercase;
-    text-shadow: 0 1px 0 rgba(255,255,255,.7);
+    text-shadow: 0 1px 0 rgba(50, 50, 50, 0.7);
 }
 
 footer .widget p {
@@ -505,17 +508,17 @@ footer{
    margin-top:40px;
    left: 0;
    right: 0;
-   background: black;
+   background: rgb(255, 255, 255);
    bottom: 0px;
 }
 
 footer h3 {
-    color: #dadada;
+    color: #000000;
     margin-bottom: 20px;
 }
 
 .footer-contact{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -525,15 +528,15 @@ footer h3 {
 }
 
 #social-icons .btn-group {
-    color: #55CBD2;
+    color: #d03737;
     margin-right: 15px;
 }
 #social-icons .btn-group:hover {
-    color: #ffffff;
+    color: #000000;
 }
 
 .copyright {
-    color: #fff;
+    color: #000000;
     padding: 20px 0px 10px 0px;
     background-color: rgb(23, 23, 23);
 }
@@ -602,7 +605,7 @@ footer h3 {
 .lib-panel .row,
 .lib-panel .col-md-6 {
     padding: 0;
-    background-color: #FFFFFF;
+    background-color: #000000;
 }
 
 
@@ -611,7 +614,7 @@ footer h3 {
 }
 
 .lib-panel .lib-row.lib-header {
-    background-color: #FCFFCF;
+    background-color: #000000;
     font-size: 25px;
     padding: 15px 20px 0 20px;
 }
@@ -619,7 +622,7 @@ footer h3 {
 .lib-panel .lib-row.lib-header .lib-header-seperator {
     height: 2px;
     width: 26px;
-    background-color: #d9d9d9;
+    background-color: #000000;
     margin: 7px 0 7px 0;
 }
 
@@ -730,7 +733,7 @@ footer h3 {
 * ==========================================================================
 */
 .carousel-caption .carousel-title {
-  color: #ffffff;
+  color: #000000;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
   .carousel-caption {
